@@ -1,4 +1,4 @@
-#AIzaSyBbT2r7aeoJ85nvBDq6PGYclrcYj8sod50    api key
+
 import requests
 import csv
 import pandas as pd
