@@ -3,7 +3,7 @@ import requests
 import csv
 import pandas as pd
 
-API_KEY = 'AIzaSyBbT2r7aeoJ85nvBDq6PGYclrcYj8sod50'
+API_KEY = ''
 def get_books(query):
     url = f"https://www.googleapis.com/books/v1/volumes?q={query}&key={API_KEY}"
     response = requests.get(url)
